@@ -1,0 +1,107 @@
+
+ body{
+    background-color:#000000;
+    align:center;
+    outline-style: solid;
+	outline-color: #1e1f11;
+	outline-color: invert;
+	outline-width: thin;
+	width:1000px;
+	height:2680px;
+	margin:30px;
+	padding:30px;
+	left:180px;
+	top:20px;
+	bottom:20px;
+	position:relative;
+	align:middle;
+}
+   
+marquee:hover{
+     transform:scaleX(-1);
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+
+img:hover {
+    -webkit-transform: scaleX(1.3);
+    transform: scale(1.2);
+	padding:10px;
+	margin:5px;
+}
+
+.container-fluid{
+	outline-style: solid;
+	outline-color: #111111;
+	outline-color: invert;
+	outline-width: thin;
+	width:800px;
+	height:320px;
+	margin:40px;
+	padding:20px;
+	left:90px;
+	position:relative;
+	align:middle;
+	background-image: linear-gradient(to bottom, #ecedec, #eff1f0, #f3f4f4, #f7f7f8, #fbfbfb);
+}
+
+
+.btn1{
+	width:600px;
+	height:250px;
+	left:140px;
+	position:relative;
+	margin:25px;
+	align:center;
+}
+
+button:hover{
+	transform: scaleX(1.1);
+}
+
+ion-buttons[start] {
+  order: 1;
+}
+
+h2 {
+    font-family: 'Bilbo Swash Caps';font-size: 22px;
+    position: absolute; 
+    left: 40px;
+    text-decoration: none;
+    color: red;  
+}
+
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.modal-header{
+	background-image: linear-gradient(to bottom, #e6ebe6, #e9efee, #eff3f4, #f6f7f8, #fbfbfb);
+}
+
+.modal-body{
+	background-image: linear-gradient(to bottom, #e6ebe6, #e9efee, #eff3f4, #f6f7f8, #fbfbfb);
+	outline:none;
+}
+
+.modal-footer{
+	background-image: linear-gradient(to bottom, #e6ebe6, #e9efee, #eff3f4, #f6f7f8, #fbfbfb);
+}
