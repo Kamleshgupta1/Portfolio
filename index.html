@@ -4,7 +4,8 @@
 <head>
   <title>My Profile</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style1.css" type="text/css"  >
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,17 +28,19 @@
 
 <body>
 
-<div class="row container-fluid" align="center">
-        <img src="myphoto.png" class="rounded-circle img-fluid img-thumbnail" alt>
+<div class="container">
+
+<div align=center">
+        <img src="image/myphoto.png" class="rounded-circle img-fluid img-thumbnail" alt>
 
 	   &nbsp <br><br>
-		<a href="https://www.instagram.com/kamleshguptaom/?hl=en"><i class="fa fa-instagram" style="font-size:40px;color:#685967"></i></a>
+		<a href="https://www.instagram.com/kamleshguptaom/?hl=en"><i onMouseOver="this.style.color='#e4405f'" onMouseOut="this.style.color='#685967'" class="fa fa-instagram" style="font-size:40px;color:#685967"></i></a>
 		&nbsp &nbsp &nbsp
-		<a href="#"><i class="fa fa-linkedin" style="font-size:40px;color:#685967"></i></a>
+		<a href="https://www.linkedin.com/in/kamlesh-gupta-60437516a/"><i onMouseOver="this.style.color='#0077B5'" onMouseOut="this.style.color='#685967'" class="fa fa-linkedin" style="font-size:40px;color:#685967"></i></a>
 		&nbsp &nbsp &nbsp
-		<a href="#"><i class="fa fa-pinterest-p" style="font-size:40px;color:#685967"></i></a>
+		<a href="#"><i onMouseOver="this.style.color='#bd081c'" onMouseOut="this.style.color='#685967'" class="fa fa-pinterest-p" style="font-size:40px;color:#685967"></i></a>
 		&nbsp &nbsp &nbsp
-		<a href="#"><i class="fa fa-whatsapp" style="font-size:40px;color:#685967" data-toggle="modal" data-target="#myModal"></i></a>
+		<a href="#" ><i onMouseOver="this.style.color='#25D366'" onMouseOut="this.style.color='#685967'" class="fa fa-whatsapp" style="font-size:40px;color:#685967" data-toggle="modal" data-target="#myModal"></i></a>
 		
 		  <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
@@ -58,23 +61,18 @@
   </div>
 		
 		&nbsp &nbsp &nbsp
-		<a href="https://plus.google.com/u/0/107149172029660356230"><i class="fa fa-google-plus" style="font-size:40px;color:#685967"></i></a>
+		<a href="https://plus.google.com/u/0/107149172029660356230"><i onMouseOver="this.style.color='#dd4b39'" onMouseOut="this.style.color='#685967'" class="fa fa-google-plus" style="font-size:37px;color:#685967"></i></a>
 		&nbsp &nbsp &nbsp
-		<a href="https://github.com/Kamleshgupta1"><i class="fa fa-github" style="font-size:40px;color:#685967"></i></a>
+		<a href="https://github.com/Kamleshgupta1"><i onMouseOver="this.style.color='#211f1f'" onMouseOut="this.style.color='#685967'" class="fa fa-github" style="font-size:40px;color:#685967"></i></a>
 		&nbsp &nbsp &nbsp
-		<a href="https://www.facebook.com/profile.php?id=100004963189505"><i class="fa fa-facebook-f" style="font-size:40px;color:#685967"></i></a>
+		<a href="https://www.facebook.com/profile.php?id=100004963189505"><i onMouseOver="this.style.color='#3b5999'" onMouseOut="this.style.color='#685967'" class="fa fa-facebook-f" style="font-size:40px;color:#685967"></i></a>
    
-<fieldset>
+</div> 
 
-
-</fieldset>   
-</div>
 <br> 
 
 
-<div> 
-<!-- Trigger the modal with a button -->
-<button type="button" class="btn btn1 btn-lg" data-toggle="modal" data-target="#myModal1"> ABOUT </button>
+<div class="jumbotron" data-toggle="modal" data-target="#myModal1"> <h3> ABOUT </h3> </div>
 
 <!-- Modal -->
 <div id="myModal1" class="modal fade" role="dialog">
@@ -97,10 +95,9 @@
 
   </div>
 </div>
-</div>
 
-<div>
-<button type="button" class="btn btn1 btn-lg" data-toggle="modal" data-target="#myModal2"> SKILLS </button>
+
+<div class="jumbotron" data-toggle="modal" data-target="#myModal2"> <h3> SKILLS </h3> </div>
 
 <!-- Modal -->
 <div id="myModal2" class="modal fade" role="dialog">
@@ -144,10 +141,9 @@
 
   </div>
 </div>
-</div>
 
-<div>
-<button type="button" class="btn btn1 btn-lg" data-toggle="modal" data-target="#myModal3"> EXPERIENCE </button>
+
+<div class="jumbotron" data-toggle="modal" data-target="#myModal3"> <h3> EXPERIENCE </h3> </div>
 
 <!-- Modal -->
 <div id="myModal3" class="modal fade" role="dialog">
@@ -174,10 +170,9 @@
 
   </div>
 </div>
-</div>
 
-<div>
-<button type="button" class="btn btn1 btn-lg" data-toggle="modal" data-target="#myModal4"> PROJECT </button>
+
+<div class="jumbotron" data-toggle="modal" data-target="#myModal4"> <h3> PROJECT </h3> </div>
 
 <!-- Modal -->
 <div id="myModal4" class="modal fade" role="dialog">
@@ -208,11 +203,9 @@
 
   </div>
 </div>
-</div>
 
-<div>      
-<!-- Trigger the modal with a button -->
-<button type="button" class="btn btn1 btn-lg" data-toggle="modal" data-target="#myModal21"> CERTIFICATES </button>
+
+<div class="jumbotron" data-toggle="modal" data-target="#myModal21"> <h3> CERTIFICATES </h3> </div>
 
 <!-- Modal -->
 <div id="myModal21" class="modal fade" role="dialog">
@@ -225,15 +218,15 @@
         <h4 class="modal-title">CERTIFICATES</h4>
       </div>
       <div class="modal-body" align="center">
-		<img src="JavaScript_certificate.jpg" alt="JavaScript_certificate" width="auto" height="200"><br><br>
-		<img src="PHP_certificate.jpg" alt="PHP_certificate" width="auto" height="200"><br><br>
-		<img src="HTML_certificate.jpg" alt="HTML_certificate" width="auto" height="200"><br><br>
-		<img src="Java_certificate.jpg" alt="Java_certificate" width="auto" height="200"><br><br>
-		<img src="CSS_certificate.jpg" alt="CSS_certificate" width="auto" height="200"><br><br>
-		<img src="Imad.jpg" alt="Imad_certificate" width="auto" height="200"><br><br>
-		<img src="rotaract.jpg" alt="Rotaract_certificate" width="auto" height="200"><br><br>
-		<img src="mikado.jpg" alt="Mikado_certificate" width="auto" height="200"><br><br>
-		<img src="ifuture.jpg" alt="iFuture_certificate" width="auto" height="200"><br><br>
+		<img src="image/JavaScript_certificate.jpg" alt="JavaScript_certificate" width="auto" height="200"><br><br>
+		<img src="image/PHP_certificate.jpg" alt="PHP_certificate" width="auto" height="200"><br><br>
+		<img src="image/HTML_certificate.jpg" alt="HTML_certificate" width="auto" height="200"><br><br>
+		<img src="image/Java_certificate.jpg" alt="Java_certificate" width="auto" height="200"><br><br>
+		<img src="image/CSS_certificate.jpg" alt="CSS_certificate" width="auto" height="200"><br><br>
+		<img src="image/Imad.jpg" alt="Imad_certificate" width="auto" height="200"><br><br>
+		<img src="image/rotaract.jpg" alt="Rotaract_certificate" width="auto" height="200"><br><br>
+		<img src="image/mikado.jpg" alt="Mikado_certificate" width="auto" height="200"><br><br>
+		<img src="image/ifuture.jpg" alt="iFuture_certificate" width="auto" height="200"><br><br>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -242,13 +235,12 @@
 
   </div>
 </div>
-</div>
 
-<div>
-<button type="button" class="btn btn1 btn-lg" data-toggle="modal" data-target="#myModa22"> RESUME </button>
+
+<div class="jumbotron" data-toggle="modal" data-target="#myModal22"> <h3> RESUME </h3> </div>
 
 <!-- Modal -->
-<div id="myModa22" class="modal fade" role="dialog">
+<div id="myModal22" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
     <!-- Modal content-->
@@ -258,7 +250,7 @@
         <h4 class="modal-title">RESUME</h4>
       </div>
       <div class="modal-body">
-        <h4>View <a href="resume.docx" download="Resune">My Resume</a>.</h4>
+        <h4>View My <a href="resume.docx" download="Resume"> Resume</a>.</h4>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -267,13 +259,12 @@
 
   </div>
 </div>
-</div>
 
-<div>
-<button type="button" class="btn btn1 btn-lg" data-toggle="modal" data-target="#myModa23"> COMMUNITY </button>
+
+<div class="jumbotron" data-toggle="modal" data-target="#myModal23"> <h3> COMMUNITY </h3> </div>
 
 <!-- Modal -->
-<div id="myModa23" class="modal fade" role="dialog">
+<div id="myModal23" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
     <!-- Modal content-->
@@ -294,13 +285,12 @@
 
   </div>
 </div>
-</div>
 
-<div>
-<button type="button" class="btn btn1 btn-lg" data-toggle="modal" data-target="#myModa24"> CONTACT </button>
+
+<div class="jumbotron" data-toggle="modal" data-target="#myModal24"> <h3> CONTACT </h3> </div>
 
 <!-- Modal -->
-<div id="myModa24" class="modal fade" role="dialog">
+<div id="myModal24" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
     <!-- Modal content-->
@@ -320,8 +310,8 @@
     </div>
   </div>
 </div>
+
+
 </div>
-
-
 </body>
 </html>
