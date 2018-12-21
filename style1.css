@@ -1,15 +1,17 @@
 
 
-.container{
+.container-fluid{
     background-color:#ffffff;
     align:center;
     outline: solid thin #1e1f11;
 	align:middle;
 	text-align:center;
-    margin:20px;
+    margin:1px;
 	padding:20px;
+	background-image: linear-gradient(to right bottom, #a0a2f4, #e28ac5, #ef8486, #d19456, #97a452);
 }
-   
+
+ 
 marquee:hover{
      transform:scaleX(-1);
 }
@@ -27,7 +29,7 @@ img:hover {
 }
 
 
-.container  i{
+.container-fluid  i{
 	 background-color:#DCE3ED;
 	 height: 50px;
 	 width: 50px;
@@ -38,7 +40,7 @@ img:hover {
 	 text-align:center;
 }
 
-.container  i:hover{
+.container-fluid  i:hover{
 	 background-color:#ffffff;
 	 outline: solid thin #1e1f11;
 }
@@ -50,8 +52,9 @@ img:hover {
 
 .jumbotron:hover{
 	transform: scaleY(1.1);
-	background-color:#ffffff;
-	outline: solid thin #1e1f11;
+	background-image: linear-gradient(to right bottom, #6266c8, #6c5cb8, #7252a8, #754999, #764089);
+    border-radius: 5px;
+	color:white;
 }
 
 
@@ -99,3 +102,36 @@ a:active {
   top: 50%;
   left: 50%;
 }
+
+
+@keyframes slideInDown {
+  from {
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInDown {
+  animation-name: slideInDown;
+}
+
+.animated {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes rubberBand {
+  0% {transform: scale(1);}
+  30% {transform: scaleX(1.25) scaleY(0.75);}
+  40% {transform: scaleX(0.75) scaleY(1.25);}
+  60% {transform: scaleX(1.15) scaleY(0.85);}
+  100% {transform: scale(1);}
+}
+.rubberBand {
+  animation-name: rubberBand;
+}
+
